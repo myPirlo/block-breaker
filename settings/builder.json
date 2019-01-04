@@ -1,15 +1,26 @@
 {
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
   "appKey": "",
   "appSecret": "",
+  "encryptJs": true,
   "excludeScenes": [],
+  "fb-instant-games": {},
   "includeAnySDK": false,
-  "includeSdk": [
-    "anysdk"
-  ],
+  "includeSDKBox": false,
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
   "mergeStartScene": false,
   "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
   "orientation": {
     "landscapeLeft": false,
     "landscapeRight": false,
@@ -18,8 +29,19 @@
   },
   "packageName": "org.cocos2d.brickbreakermaster",
   "privateKey": "",
-  "renderMode": "0",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
   "startScene": "2ef97242-9501-4637-ab4d-d2e235f1f114",
   "title": "BrickBreaker",
-  "webOrientation": "auto"
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx7feef145b72f629b",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "87ea17cb-4765-43",
+  "zipCompressJs": true
 }

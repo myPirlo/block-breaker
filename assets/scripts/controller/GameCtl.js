@@ -20,8 +20,7 @@ cc.Class({
         });
         this.physicsManager = cc.director.getPhysicsManager();
         this.gameModel = new GameModel();
-        this.startGame();
-
+        this.startGame()
     },
 
     //this.physicsManager.debugDrawFlags =0;
